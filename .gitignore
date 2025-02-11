@@ -1,3 +1,7 @@
 
 /venv
 /lab2/pacman-bfs-dfs/__pycache__
+
+/.vs
+/.vscode
+/lab5/ABS/.vs

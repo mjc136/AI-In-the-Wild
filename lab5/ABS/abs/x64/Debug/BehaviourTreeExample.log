@@ -1,0 +1,41 @@
+﻿  Grid.cpp
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\Grid.cpp(71,11): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\Grid.cpp(77,11): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Droid.cpp
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\Droid.cpp(14,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\Droid.cpp(26,40): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\Droid.cpp(26,31): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\Droid.cpp(43,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Game.cpp
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\Wander.h(13,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  HealthPill.cpp
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\HealthPill.cpp(21,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\cawleyo\source\repos\BehaviourTreeExample\BehaviourTreeExample\HealthPill.cpp(21,32): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Main.cpp
+  Node.cpp
+  Generating Code...
+  BehaviourTreeExample.vcxproj -> C:\Users\cawleyo\source\repos\BehaviourTreeExample\x64\Debug\BehaviourTreeExample.exe
