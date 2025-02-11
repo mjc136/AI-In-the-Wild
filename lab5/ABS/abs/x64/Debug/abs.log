@@ -1,28 +1,4 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (BehaviourTreeExample.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Grid.cpp
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(71,11): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(71,11): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(71,11): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(71,11): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(71,11): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(77,11): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(77,11): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(77,11): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(77,11): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Grid.cpp(77,11): warning C4244:         ]
-  Droid.cpp
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(14,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,40): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,40): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,40): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,40): warning C4244:             T=unsigned int
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,40): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,31): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,31): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,31): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,31): warning C4244:             T=unsigned int
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(26,31): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Droid.cpp(43,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Game.cpp
 D:\Github\AI-In-the-Wild\lab5\ABS\abs\Wander.h(13,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 D:\Github\AI-In-the-Wild\lab5\ABS\abs\Hide.h(63,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
@@ -50,51 +26,30 @@ D:\Github\AI-In-the-Wild\lab5\ABS\abs\Hide.h(110,30): warning C4244: '=': conver
 D:\Github\AI-In-the-Wild\lab5\ABS\abs\Hide.h(111,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 D:\Github\AI-In-the-Wild\lab5\ABS\abs\Hide.h(115,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 D:\Github\AI-In-the-Wild\lab5\ABS\abs\Hide.h(116,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,67): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,67): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,67): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,67): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,67): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,48): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,48): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,48): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,48): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(81,48): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,33): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,33): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,33): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,33): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,24): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,24): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,24): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,24): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(90,24): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,69): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,69): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,69): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,69): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,69): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,49): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,49): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,49): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(91,49): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(124,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(125,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(63,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,68): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,68): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,68): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,68): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,68): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,51): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,51): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,51): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(95,51): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,73): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,73): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,73): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,73): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,73): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,53): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,53): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,53): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,53): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(104,53): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(110,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(111,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(115,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab5\ABS\abs\Protect.h(116,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 D:\Github\AI-In-the-Wild\lab5\ABS\abs\Game.cpp(222,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  HealthPill.cpp
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,41): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,41): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,41): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,41): warning C4244:             T=unsigned int
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,41): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,32): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,32): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,32): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,32): warning C4244:             T=unsigned int
-D:\Github\AI-In-the-Wild\lab5\ABS\abs\HealthPill.cpp(21,32): warning C4244:         ]
-  Main.cpp
-  Node.cpp
-  Generating Code...
   abs.vcxproj -> D:\Github\AI-In-the-Wild\lab5\ABS\x64\Debug\abs.exe

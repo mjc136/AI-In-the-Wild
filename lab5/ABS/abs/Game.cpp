@@ -226,12 +226,12 @@ void Game::setupDroids()
 	d2->setBrain(emptyBrain);
 	d2->setColour(sf::Color::Green);
 
-	// Example Droid with a simple Wander Behaviour
-	Droid* d3 = new Droid("D3", 20, 3, 1000, 0, 3, gridWorld);
-	Routine* wander3 = new Wander(gridWorld);
-	d3->setBehaviour(wander3);
-	d3->setBrain(emptyBrain);
-	d3->setColour(sf::Color::Magenta);
+	//// Example Droid with a simple Wander Behaviour
+	//Droid* d3 = new Droid("D3", 20, 3, 1000, 0, 3, gridWorld);
+	//Routine* wander3 = new Wander(gridWorld);
+	//d3->setBehaviour(wander3);
+	//d3->setBrain(emptyBrain);
+	//d3->setColour(sf::Color::Magenta);
 
 	// Example Droid with a Hide Behaviour
 	Droid* d4 = new Droid("D4", (rand() % (int)gridWorld.gridSize) + 1, (rand() % (int)gridWorld.gridSize) + 1, 1000, 0, 3, gridWorld);
@@ -248,37 +248,37 @@ void Game::setupDroids()
 	d5->setBrain(emptyBrain);
 	d5->setColour(sf::Color::Blue);
 
-	// Example Droid with a hide Behaviour using 2 random Droids
-	Droid* d6 = new Droid("D6", 7, 3, 1000, 0, 3, gridWorld);
-	Routine* hide6 = new Hide(-1, -1, gridWorld); // Pick two random droids for the Hide behaviour
-	d6->setBehaviour(hide6);
-	d6->setBrain(emptyBrain);
-	d6->setColour(sf::Color::Red);
+	//// Example Droid with a hide Behaviour using 2 random Droids
+	//Droid* d6 = new Droid("D6", 7, 3, 1000, 0, 3, gridWorld);
+	//Routine* hide6 = new Hide(-1, -1, gridWorld); // Pick two random droids for the Hide behaviour
+	//d6->setBehaviour(hide6);
+	//d6->setBrain(emptyBrain);
+	//d6->setColour(sf::Color::Red);
 
-	// Example Droid with a more complex Behaviour
-	// Check for enemies nearby, if found then MoveAway otherwise continue to Goal
-	// Try this with only D1 active so you can test it
-	Droid* d7 = new Droid("D7", 20, 20, 1000, 0, 2, gridWorld);
-	Selector* selectorD7 = new Selector();
-	Sequence* sequenceD7 = new Sequence();
-	Routine* isDroidInRangeD7 = new IsDroidInRange();
-	Routine* moveAwayD7 = new MoveAway(gridWorld);
-	sequenceD7->addRoutine(isDroidInRangeD7);
-	sequenceD7->addRoutine(moveAwayD7);
-	Routine* moveTo7 = new MoveTo(10, 10, gridWorld);
-	selectorD7->addRoutine(sequenceD7);
-	selectorD7->addRoutine(moveTo7);
-	d7->setBehaviour(selectorD7);
-	d7->setBrain(new CheckForAlarms()); //The Brain routine gets executed first.
-	d7->setColour(sf::Color(39,215,205));
+	//// Example Droid with a more complex Behaviour
+	//// Check for enemies nearby, if found then MoveAway otherwise continue to Goal
+	//// Try this with only D1 active so you can test it
+	//Droid* d7 = new Droid("D7", 20, 20, 1000, 0, 2, gridWorld);
+	//Selector* selectorD7 = new Selector();
+	//Sequence* sequenceD7 = new Sequence();
+	//Routine* isDroidInRangeD7 = new IsDroidInRange();
+	//Routine* moveAwayD7 = new MoveAway(gridWorld);
+	//sequenceD7->addRoutine(isDroidInRangeD7);
+	//sequenceD7->addRoutine(moveAwayD7);
+	//Routine* moveTo7 = new MoveTo(10, 10, gridWorld);
+	//selectorD7->addRoutine(sequenceD7);
+	//selectorD7->addRoutine(moveTo7);
+	//d7->setBehaviour(selectorD7);
+	//d7->setBrain(new CheckForAlarms()); //The Brain routine gets executed first.
+	//d7->setColour(sf::Color(39,215,205));
 
 	m_droids.push_back(d1);
 	m_droids.push_back(d2);
-	m_droids.push_back(d3);
+	//m_droids.push_back(d3);
 	m_droids.push_back(d4);
 	m_droids.push_back(d5);
-    m_droids.push_back(d6);
-	m_droids.push_back(d7);
+ //   m_droids.push_back(d6);
+	//m_droids.push_back(d7);
 	gridWorld.m_gridDroids = m_droids;	//So we can access them when inside the behaviours.
 
 	int x = gridWorld.getGridCellX(sf::Vector2i(400, 300));

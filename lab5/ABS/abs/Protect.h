@@ -1,4 +1,4 @@
-#ifndef Protect_H
+﻿#ifndef Protect_H
 #define Protect_H
 
 #include "Droid.h"
@@ -95,7 +95,7 @@ public:
             sf::Vector2f AB = sf::Vector2f(droidBx-droidAx, droidBy-droidAy);
             float lenAB = grid.length(AB);
             sf::Vector2f ABn = droid->normalize(AB);
-            sf::Vector2f C = sf::Vector2f(droidBx + ABn.x * distanceToProtectPoint, droidBy + ABn.y * distanceToProtectPoint); // C is the porposed Protect point
+            sf::Vector2f C = sf::Vector2f(droidBx - ABn.x * distanceToProtectPoint, droidBy - ABn.y * distanceToProtectPoint); // C is the porposed Protect point
             // Next we need to think about whether there is a closer hiding point to us if we are further away.
             // If we get the dot product of the two vectors A->B and A->D(our current position) we will have our projected length on to AB
             // Adding this to the coordinates of A will give us the projected point X on AB
@@ -105,7 +105,7 @@ public:
             float AX = (AD.x * AB.x + AD.y * AB.y) / lenAB; // Get the dot product which returns a scalar value
             sf::Vector2f X = sf::Vector2f(ABn.x * AX + droidAx, ABn.y * AX + droidAy); // X is the intersection point on AB
             float lenAX = grid.length(sf::Vector2f(X.x - droidAx, X.y - droidAy));
-            if (lenAX < lenAC) 
+            if (lenAX > lenAC) 
             {
                 destX = round(C.x);
                 destY = round(C.y);
