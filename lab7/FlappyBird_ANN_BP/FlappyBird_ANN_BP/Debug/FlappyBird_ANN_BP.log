@@ -1,0 +1,113 @@
+﻿  Bird.cpp
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(34,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(34,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(35,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(35,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(52,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(52,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(54,23): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(55,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(59,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(66,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(72,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,22): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,31): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,45): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,45): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,59): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,59): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,62): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(88,62): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(111,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(111,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(116,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(116,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Brain.cpp
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Brain.cpp(146,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Game.cpp
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(70,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(74,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(388,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(402,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Main.cpp(25,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pillar.cpp
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(42,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(46,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(46,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(62,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(65,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(65,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Population.cpp
+  Generating Code...
+  FlappyBird_ANN_BP.vcxproj -> C:\Users\cawleyo\source\repos\FlappyBird_ANN_BP\Debug\FlappyBird_ANN_BP.exe
