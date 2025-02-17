@@ -10,7 +10,7 @@
 #		-> No modifications required :)
 
 import numpy as np
-from numpy import loadtxt
+import pandas as pd
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
@@ -22,10 +22,18 @@ from tensorflow.keras.layers import Dense
 # 4. X – Coordinate of the Bird / Species itself
 # 5. y – Coordinate of the Bird / Species itself
 
-dataset = loadtxt('training_data.csv', delimiter=',')
+# Load the dataset from the CSV file
+dataset = pd.read_csv('training_data.csv', delimiter=',')
+
+# label encoding the data
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+dataset['action'] = le.fit_transform(dataset['action'])
+dataset.head(10)
+
 # split into input (X) and output (y) variables
-X = dataset[:,0:5]
-y = dataset[:,5]
+X = dataset.iloc[:, 0:5].values
+y = dataset.iloc[:, 5].values
 
 # define the keras model. This must be the same as the structure we will use in Flappy Brid's brain.
 model = Sequential()

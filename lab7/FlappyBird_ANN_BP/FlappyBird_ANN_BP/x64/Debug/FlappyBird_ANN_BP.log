@@ -1,25 +1,10 @@
-﻿  Bird.cpp
-C:\Users\mjcul\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.h(3,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-  (compiling source file 'Bird.cpp')
-  
-  Brain.cpp
-C:\Users\mjcul\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.h(3,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-  (compiling source file 'Brain.cpp')
-  
-  Game.cpp
-C:\Users\mjcul\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.h(3,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-  (compiling source file 'Game.cpp')
-  
-  Main.cpp
-C:\Users\mjcul\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.h(3,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-  (compiling source file 'Main.cpp')
-  
-  Pillar.cpp
-C:\Users\mjcul\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.h(3,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-  (compiling source file 'Pillar.cpp')
-  
-  Population.cpp
-C:\Users\mjcul\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.h(3,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
-  (compiling source file 'Population.cpp')
-  
-  Generating Code...
+﻿  Game.cpp
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(72,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(76,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(422,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  FlappyBird_ANN_BP.vcxproj -> D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\x64\Debug\FlappyBird_ANN_BP.exe

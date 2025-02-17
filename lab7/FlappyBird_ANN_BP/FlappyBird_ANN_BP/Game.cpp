@@ -102,7 +102,12 @@ void Game::loadTFBrain(int bird)
 	int index = 0;
 	float weight = 0.0f;
 
-	myWeightsFile.open("flappy_tf_weights.csv");
+    myWeightsFile.open(R"(D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\flappy_tf_weights.csv)");
+	if (!myWeightsFile.is_open())
+	{
+		std::cout << "Failed to open file" << std::endl;
+		exit(1);
+	}
 //	myWeightsFile.open("flappy_tf_weights-21k-Acc76point84.csv");
 //	myWeightsFile.open("flappy_tf_weights-70k-Acc78point44.csv");
 
@@ -257,7 +262,7 @@ void Game::loop()
 			draw();
 		}
 	}
-}
+}                
 
 
 /// <summary>
@@ -316,6 +321,15 @@ void Game::update(float dt)
 	birdsAlive = population.update(pillarSet[index]);
 	if (birdsAlive == 0)
 	{
+		if (ai) // Only print if AI is enabled
+		{
+			std::cout << "\n===== AI Dragon Scores =====" << std::endl;
+			for (int i = 0; i < birdCount; i++)
+			{
+				std::cout << "Bird " << i + 1 << " Final Score: " << population.birdSet[i].fitness << std::endl;
+			}
+			std::cout << "============================\n" << std::endl;
+		}
 		if (player || ai)
 			m_exitGame = true;
 	}
