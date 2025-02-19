@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|solutionrelative:FlappyBird_ANN_BP\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|solutionrelative:FlappyBird_ANN_BP\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Brain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|solutionrelative:FlappyBird_ANN_BP\\Brain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|solutionrelative:FlappyBird_ANN_BP\\Bird.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{22F2439E-BF90-4218-A375-ED9F948074DE}|FlappyBird_ANN_BP\\FlappyBird_ANN_BP.vcxproj|solutionrelative:FlappyBird_ANN_BP\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,52 +34,65 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bird.cpp",
-              "DocumentMoniker": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.cpp",
-              "RelativeDocumentMoniker": "FlappyBird_ANN_BP\\Bird.cpp",
-              "ToolTip": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.cpp",
-              "RelativeToolTip": "FlappyBird_ANN_BP\\Bird.cpp",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Brain.cpp",
+              "DocumentMoniker": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Brain.cpp",
+              "RelativeDocumentMoniker": "FlappyBird_ANN_BP\\Brain.cpp",
+              "ToolTip": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Brain.cpp",
+              "RelativeToolTip": "FlappyBird_ANN_BP\\Brain.cpp",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAwwD8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-17T17:11:27.659Z",
+              "WhenOpened": "2025-02-19T18:26:04.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game.cpp",
-              "DocumentMoniker": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.cpp",
-              "RelativeDocumentMoniker": "FlappyBird_ANN_BP\\Game.cpp",
-              "ToolTip": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.cpp",
-              "RelativeToolTip": "FlappyBird_ANN_BP\\Game.cpp",
-              "ViewState": "AQIAADMBAAAAAAAAAAAwwEgBAABWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-17T15:54:43.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Game.h",
               "DocumentMoniker": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.h",
               "RelativeDocumentMoniker": "FlappyBird_ANN_BP\\Game.h",
               "ToolTip": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.h",
               "RelativeToolTip": "FlappyBird_ANN_BP\\Game.h",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwD4AAAAhAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-17T15:45:47.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Bird.cpp",
+              "DocumentMoniker": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.cpp",
+              "RelativeDocumentMoniker": "FlappyBird_ANN_BP\\Bird.cpp",
+              "ToolTip": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.cpp",
+              "RelativeToolTip": "FlappyBird_ANN_BP\\Bird.cpp",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDUAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-17T17:11:27.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.cpp",
+              "RelativeDocumentMoniker": "FlappyBird_ANN_BP\\Game.cpp",
+              "ToolTip": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Game.cpp",
+              "RelativeToolTip": "FlappyBird_ANN_BP\\Game.cpp",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAGgAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-17T15:54:43.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Bird.h",
               "DocumentMoniker": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.h",
               "RelativeDocumentMoniker": "FlappyBird_ANN_BP\\Bird.h",
               "ToolTip": "D:\\Github\\AI-In-the-Wild\\lab7\\FlappyBird_ANN_BP\\FlappyBird_ANN_BP\\Bird.h",
               "RelativeToolTip": "FlappyBird_ANN_BP\\Bird.h",
-              "ViewState": "AQIAABcAAAAAAAAAAAAAADIAAAAMAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAABBwDIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-13T12:25:02.194Z",
               "EditorCaption": ""

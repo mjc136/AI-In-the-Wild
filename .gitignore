@@ -60,4 +60,6 @@ lib/
 *.swo
 *.~*
 *.old
+
+
 /lab7/FlappyBird_ANN_BP/.vs

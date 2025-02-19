@@ -1,4 +1,4 @@
-/// 
+﻿/// 
 /// @author Dr. Oisin Cawley
 /// @South East Technological University, Ireland
 /// @date August 2023
@@ -233,20 +233,32 @@ void Game::loop()
 				// Start capturing the environment inputs and bird brain decisions for training data.
 				if (sf::Keyboard::C == event.key.code)
 				{
-					string w = "";
-					if (!capture)
+					if (!capture)  // Start capturing
 					{
 						capture = true;
 						std::cout << "======================" << std::endl;
-						myTrainingfile.open("training_data.csv");
+						myTrainingfile.open(R"(D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\training_data.csv)");
+
+						if (!myTrainingfile.is_open()) // Ensure file is opened successfully
+						{
+							std::cerr << "ERROR: Could not open training_data.csv for writing!" << std::endl;
+							capture = false; // Disable capturing if file couldn't open
+						}
+						else
+						{
+							std::cout << "Started capturing training data!" << std::endl;
+						}
 					}
-					else
+					else  // Stop capturing
 					{
-						capture = false;	// Turn it off
+						capture = false;
 						if (myTrainingfile.is_open())
+						{
 							myTrainingfile.close();
+							std::cout << "❌ Stopped capturing training data!" << std::endl;
+						}
 					}
-				}
+				}     
 			default:
 				break;
 			}
@@ -298,11 +310,11 @@ void Game::update(float dt)
 				//				myTrainingfile << tempString;
 				if (population.birdSet[b].jump)
 				{
-					tempString = tempString + ",flap";
+					tempString = tempString + ",1";
 					//					myTrainingfile << ",flap\n";
 				}
 				else
-					tempString = tempString + ",glide";
+					tempString = tempString + ",0";
 				//myTrainingfile << ",glide\n";
 
 				std::cout << tempString << std::endl;

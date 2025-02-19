@@ -1,10 +1,120 @@
-﻿  Game.cpp
+﻿  Bird.cpp
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(40,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(40,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(41,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(41,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,36): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,36): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,36): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,36): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,33): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,33): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,33): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,33): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(42,33): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(59,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(59,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(61,16): warning C4305: '+=': truncation from 'double' to 'float'
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(62,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(66,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(73,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(79,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,22): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,31): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,45): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,45): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,59): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,59): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,62): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(95,62): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(123,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(123,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(125,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(125,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,42): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,42): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,42): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,42): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,32): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,32): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,32): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(133,32): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,42): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,42): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,42): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,42): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,42): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,32): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,32): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,32): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Bird.cpp(138,32): warning C4244:         ]
+  Brain.cpp
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Brain.cpp(146,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Game.cpp
 D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(72,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
 D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(76,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
-D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:         with
-D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:         [
-D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:             T=float
-D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(409,41): warning C4244:         ]
-D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(422,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(258,21): warning C4566: character represented by universal-character-name '\u274C' cannot be represented in the current code page (1252)
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(421,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(421,41): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(421,41): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(421,41): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(421,41): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Game.cpp(434,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Main.cpp
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Main.cpp(25,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Pillar.cpp
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(42,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,51): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,51): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,51): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,51): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,38): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,38): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,38): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(43,38): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(46,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(46,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,51): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,51): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,51): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,51): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,38): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,38): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,38): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(47,38): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(62,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,51): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,51): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,51): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,51): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,38): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,38): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,38): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(63,38): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(65,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(65,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,51): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,51): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,51): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,51): warning C4244:         ]
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,38): warning C4244:         with
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,38): warning C4244:         [
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,38): warning C4244:             T=float
+D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\FlappyBird_ANN_BP\Pillar.cpp(66,38): warning C4244:         ]
+  Population.cpp
+  Generating Code...
   FlappyBird_ANN_BP.vcxproj -> D:\Github\AI-In-the-Wild\lab7\FlappyBird_ANN_BP\x64\Debug\FlappyBird_ANN_BP.exe
